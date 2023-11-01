@@ -104,6 +104,10 @@ a {
   gap: 2rem;
 }
 
+.role{
+  color: #0c7dcd;
+}
+
 .hero-section-heading {
   font-size: 35px;
   color: #343d68;
