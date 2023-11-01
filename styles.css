@@ -57,7 +57,6 @@
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-
 }
 
 .nav-items div a {
@@ -180,11 +179,9 @@ a {
 }
 
 @keyframes scaleImage {
-
   0% {
     filter: grayscale(0);
     transform: scale(1);
-
   }
 
   50% {
@@ -197,7 +194,6 @@ a {
     transform: scale(1);
     filter: grayscale(0);
   }
-
 }
 
 .icon-dots {
@@ -221,7 +217,6 @@ a {
   100% {
     transform: translateY(0px);
   }
-
 }
 
 .icon-cube {
@@ -258,12 +253,10 @@ a {
 } */
 
 @keyframes shakeEffect {
-
   50% {
     left: 5%;
     bottom: 10%;
   }
-
 }
 
 .icon-zigzag {
@@ -290,7 +283,7 @@ a {
 @keyframes shakeEffectPlus {
   50% {
     top: 3%;
-    left: 48%
+    left: 48%;
   }
 }
 
@@ -380,7 +373,6 @@ a {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-
 }
 
 .project-skill {
@@ -437,7 +429,7 @@ a {
   background-image: url(./images/projects/D&I.png);
 }
 
-@media (max-width:1300px) {
+@media (max-width: 1300px) {
   .page-header {
     padding-top: 30px;
     color: var(--bgOrange);
